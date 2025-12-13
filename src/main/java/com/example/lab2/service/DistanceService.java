@@ -1,12 +1,14 @@
 package com.example.lab2.service;
 
-import org.springframework.stereotype.Service;
-import reactor.core.publisher.Mono;
-import reactor.core.scheduler.Schedulers;
 import java.math.BigDecimal;
 import java.math.MathContext;
 import java.math.RoundingMode;
 
+import org.springframework.stereotype.Service;
+import reactor.core.publisher.Mono;
+import reactor.core.scheduler.Schedulers;
+
+/*
 @Service
 public class DistanceService {
     public Mono<Double> calculate(double x1, double y1, double x2, double y2) {
@@ -38,3 +40,18 @@ public class DistanceService {
         }).subscribeOn(Schedulers.boundedElastic());
     }
 }
+*/
+
+
+@Service
+public class DistanceService {
+    public Mono<Double> calculate(double x1, double y1, double x2, double y2) {
+        return Mono.fromCallable(() -> {
+            double dx = x2 - x1;
+            double dy = y2 - y1;
+            double distance = Math.sqrt((dx * dx) + (dy * dy));
+            return distance;
+        }).subscribeOn(Schedulers.boundedElastic());
+    }
+}
+ 

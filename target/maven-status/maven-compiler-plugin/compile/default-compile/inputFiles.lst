@@ -1,0 +1,9 @@
+/home/RA/web_lab_2025/lab3/web_lab_3/src/main/java/com/example/lab2/Lab2Application.java
+/home/RA/web_lab_2025/lab3/web_lab_3/src/main/java/com/example/lab2/client/Client.java
+/home/RA/web_lab_2025/lab3/web_lab_3/src/main/java/com/example/lab2/client/WebClientConfig.java
+/home/RA/web_lab_2025/lab3/web_lab_3/src/main/java/com/example/lab2/controllers/ClientController.java
+/home/RA/web_lab_2025/lab3/web_lab_3/src/main/java/com/example/lab2/controllers/DistanceController.java
+/home/RA/web_lab_2025/lab3/web_lab_3/src/main/java/com/example/lab2/filter/LogFilter.java
+/home/RA/web_lab_2025/lab3/web_lab_3/src/main/java/com/example/lab2/model/DistanceRequest.java
+/home/RA/web_lab_2025/lab3/web_lab_3/src/main/java/com/example/lab2/model/DistanceResponse.java
+/home/RA/web_lab_2025/lab3/web_lab_3/src/main/java/com/example/lab2/service/DistanceService.java

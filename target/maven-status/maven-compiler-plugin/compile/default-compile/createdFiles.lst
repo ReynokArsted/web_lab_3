@@ -1,0 +1,9 @@
+com/example/lab2/model/DistanceResponse.class
+com/example/lab2/client/WebClientConfig.class
+com/example/lab2/model/DistanceRequest.class
+com/example/lab2/client/Client.class
+com/example/lab2/controllers/DistanceController.class
+com/example/lab2/service/DistanceService.class
+com/example/lab2/controllers/ClientController.class
+com/example/lab2/filter/LogFilter.class
+com/example/lab2/Lab2Application.class
